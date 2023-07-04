@@ -1,1 +1,1 @@
-Para ejecutar compilar sass ejecutar el comando $ sass --watch src/scss/main.scss src/css/main.css
+Para compilar sass, ejecutar el comando $ sass --watch src/scss/main.scss src/css/main.css
