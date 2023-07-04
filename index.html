@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <span>Challenge PinApp</span>
+    </header>
+    <div class="container">
+      <form method="post">
+        <div class="box">
+          <label>Nombre</label>
+          <input id="first-name" type="text" required />
+        </div>
+        <div class="box">
+          <label>Apellido</label>
+          <input id="last-name" type="text" required />
+        </div>
+        <div class="box">
+          <label>Edad</label>
+          <input id="age" type="text" required />
+        </div>
+        <div class="box">
+          <label>Fecha de nacimiento</label>
+          <input id="date" type="date" required />
+        </div>
+        <button type="submit" class="enviar">Enviar formulario</button>
+      </form>
+      <div class="alert"></div>
+    </div>
+    <div class="buttonUsers">
+      <a href="./users.html">Ver informacion de los usuarios</a>
+    </div>
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="./scripts/firebaseConfig.js"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

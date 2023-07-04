@@ -1,0 +1,137 @@
+body,
+span,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+
+  height: 100px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgb(131, 58, 180) 0%,
+    rgb(253, 29, 29) 50%,
+    rgb(252, 176, 69) 100%
+  );
+  span {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px 0;
+    .box {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      padding-bottom: 15px;
+      label {
+        font-family: sans-serif;
+        padding-bottom: 5px;
+      }
+      input {
+        height: 25px;
+        padding-left: 5px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+      }
+      input#date {
+        height: 30px;
+      }
+    }
+  }
+  button.enviar {
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 34px;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      90deg,
+      rgb(131, 58, 180) 0%,
+      rgb(253, 29, 29) 50%,
+      rgb(252, 176, 69) 100%
+    );
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+  .alert {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+}
+.buttonUsers {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+}
+footer {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgb(131, 58, 180) 0%,
+    rgb(253, 29, 29) 50%,
+    rgb(252, 176, 69) 100%
+  );
+  height: 100px;
+}
+
+.infoUsers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  .infoGeneral {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid violet;
+    p.text {
+      font-family: sans-serif;
+      line-height: 24px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  p.Title {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px 0;
+  }
+  .user {
+    padding-bottom: 15px;
+    p {
+      line-height: 24px;
+      font-family: sans-serif;
+    }
+  }
+}
